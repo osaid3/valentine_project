@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veux-tu être ma Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="valentine-card">
+            <div class="kitty-container">
+                <img src="images/hello_kitty.png" alt="Hello Kitty" class="hello-kitty">
+            </div>
+            <h1>Veux-tu être ma Valentine? 💝</h1>
+            <div class="penguin-container">
+                <svg class="penguin" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#000000" d="M18 2.5c-8.56 0-15.5 6.94-15.5 15.5S9.44 33.5 18 33.5s15.5-6.94 15.5-15.5S26.56 2.5 18 2.5zm0 28c-6.9 0-12.5-5.6-12.5-12.5S11.1 5.5 18 5.5s12.5 5.6 12.5 12.5S24.9 30.5 18 30.5z"/>
+                    <circle fill="#ffffff" cx="18" cy="18" r="10"/>
+                    <circle fill="#000000" cx="15" cy="15" r="2"/>
+                    <circle fill="#000000" cx="21" cy="15" r="2"/>
+                    <path fill="#ff9999" d="M18 21c-3.31 0-6 2.69-6 6h12c0-3.31-2.69-6-6-6z"/>
+                </svg>
+            </div>
+            <div class="hearts">
+                <div class="heart">❤️</div>
+                <div class="heart">🐧</div>
+                <div class="heart">❤️</div>
+            </div>
+            <div class="buttons">
+                <button id="yesBtn" class="btn yes-btn">Oui</button>
+                <button id="noBtn" class="btn no-btn">Non</button>
+            </div>
+            <div id="response" class="response"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
